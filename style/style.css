@@ -94,3 +94,45 @@ td {
 .gallery_img {
     display: block;
 }
+aside {
+    display: block;
+}
+.container {
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: solid;
+}
+.cover-pic {
+    display: block;
+    width: 100%;
+}
+.profile-pic {
+    width: 140px;
+    border-radius: 50%;
+    margin-top: -70px;
+    
+}
+.profile-pic:hover {
+    box-shadow: 0 0 0 1px blue;
+}
+.follow-btn {
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid #1900ff;
+    color: #312d2d;
+    padding: 6px 20px;
+    margin: 5px 0;
+}
+.view-btn {
+    display: inline-block;
+    text-decoration: underline;
+    background: #2806ed;
+    color: white;
+    width: 100%;
+    padding: 15px 0;
+    margin-top: 20px;
+}
