@@ -136,3 +136,6 @@ aside {
     padding: 15px 0;
     margin-top: 20px;
 }
+.view-btn:hover {
+    color: rgb(196, 208, 240);
+}
