@@ -59,17 +59,28 @@
             </div>
             <div class="mb-3">
                 <label for="psw">Password: *</label>
-                <input type="password" class="form-control" placeholder="Enter Password" name="psw" id="psw" required>
+                <input id="psw" type="password" class="form-control" placeholder="Enter Password" name="psw" equired>
+                <br><p id="text">Warning: CAPS LOCK is on!</p>
             </div>
             <button type="submit" class="btn btn-primary" formaction="submit.html">Sign In</button>
             <button type="reset" class="btn" value="clear">Clear</button>
     </div>
     </form>
+    <script>
+        var input = document.getElementById("psw");
+        var text = document.getElementById("text");
+        input.addEventListener("keyup", function(event) {
+        
+        if (event.getModifierState("CapsLock")) {
+            text.style.display = "block";
+          } else {
+            text.style.display = "none"
+          }
+        });
+        </script>
 </body>
 <footer class="mt-5 p-4 bg-dark text-white text-center">
     2023 Keira McLean
 </footer>
-
-</html>
 
 </html>

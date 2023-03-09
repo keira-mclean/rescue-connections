@@ -21,7 +21,10 @@ option {
 *::after {
     box-sizing: border-box;
 }
-
+#text {
+    display: none;
+    color: red;
+}
 div {
     display: block;
 }
