@@ -118,6 +118,7 @@ aside {
     justify-content: center;
     text-align: center;
     border: solid;
+    margin: 10px;
 }
 .cover-pic {
     display: block;
