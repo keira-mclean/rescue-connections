@@ -84,6 +84,9 @@ div {
     background-color: black;
     color: white;
 }
+figure {
+    width: 50%
+}
 #connect {
     padding: 0 240px 0 240px;
     align-items: center;
@@ -132,7 +135,7 @@ aside {
     object-fit: contain;
 }
 .profile-pic {
-    width: 140px;
+    width: 100;
     border-radius: 50%;
     margin-top: -70px;
     object-fit: contain;
