@@ -107,8 +107,9 @@ td {
 .img-object {
     display: block;
     object-fit: contain;
-    width:240px;
-    height: 240px;
+    width:480px;
+    height: 480px;
+    margin-top: 10px;
 }
 aside {
     display: block;
