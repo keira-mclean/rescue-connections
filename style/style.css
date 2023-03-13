@@ -104,8 +104,11 @@ td {
     border: 1px solid black;
 }
 
-.gallery_img {
+.img-object {
     display: block;
+    object-fit: contain;
+    width:240px;
+    height: 240px;
 }
 aside {
     display: block;
@@ -119,15 +122,19 @@ aside {
     text-align: center;
     border: solid;
     margin: 10px;
+    background-size:contain;
+    background-position: center;
 }
 .cover-pic {
     display: block;
     width: 100%;
+    object-fit: contain;
 }
 .profile-pic {
     width: 140px;
     border-radius: 50%;
     margin-top: -70px;
+    object-fit: contain;
     
 }
 .profile-pic:hover {
