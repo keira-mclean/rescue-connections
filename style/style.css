@@ -10,21 +10,58 @@ body {
     flex-direction: column;
 
 }
+
+section {
+    display: block;
+}
+
+.bg-1 {
+    background-color: #557d75;
+    color: white;
+    padding: 10px 200px 10px 200px;
+}
+
+.bg-2 {
+    background-color: #777d89;
+    /* Dark Blue */
+    color: #ffffff;
+    padding: 10px;
+}
+.bg-2 a {
+    color: rgb(26, 23, 171);
+}
+.bg-3 {
+    background-color: #ede1e1;
+    /* White */
+    color: #555555;
+    padding: 70px;
+}
+
+.lucy-cover {
+    display: inline-block;
+    width: 25%;
+    object-fit: cover;
+
+}
+
 option {
     display: block;
-    white-space:nowrap;
+    white-space: nowrap;
     min-height: 1.2em;
     padding: 0px 2px 1px
 }
+
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
+
 #text {
     display: none;
     color: red;
 }
+
 div {
     display: block;
 }
@@ -84,14 +121,17 @@ div {
     background-color: black;
     color: white;
 }
+
 figure {
     width: 50%
 }
+
 #connect {
     padding: 0 240px 0 240px;
     align-items: center;
     display: block;
 }
+
 form {
     display: block;
     padding: 20px 20px 20px 20px;
@@ -110,13 +150,16 @@ td {
 .img-object {
     display: block;
     object-fit: contain;
-    width:480px;
+    width: 480px;
     height: 480px;
     margin-top: 10px;
+    align-content: center;
 }
+
 aside {
     display: block;
 }
+
 .container {
     width: 100%;
     min-height: 50vh;
@@ -126,24 +169,28 @@ aside {
     text-align: center;
     border: solid;
     margin: 10px;
-    background-size:contain;
+    background-size: contain;
     background-position: center;
 }
+
 .cover-pic {
     display: block;
     width: 100%;
     object-fit: contain;
 }
+
 .profile-pic {
     width: 100;
     border-radius: 50%;
     margin-top: -70px;
     object-fit: contain;
-    
+
 }
+
 .profile-pic:hover {
     box-shadow: 0 0 0 1px blue;
 }
+
 .follow-btn {
     display: inline-block;
     text-decoration: none;
@@ -152,6 +199,7 @@ aside {
     padding: 6px 20px;
     margin: 5px 0;
 }
+
 .view-btn {
     display: inline-block;
     text-decoration: underline;
@@ -161,6 +209,7 @@ aside {
     padding: 15px 0;
     margin-top: 20px;
 }
+
 .view-btn:hover {
     color: rgb(196, 208, 240);
 }
