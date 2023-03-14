@@ -18,14 +18,14 @@ section {
 .bg-1 {
     background-color: #557d75;
     color: white;
-    padding: 10px 200px 10px 200px;
+    padding: 20px;
 }
 
 .bg-2 {
     background-color: #777d89;
     /* Dark Blue */
     color: #ffffff;
-    padding: 10px;
+    padding: 20px;
 }
 .bg-2 a {
     color: rgb(26, 23, 171);
@@ -34,7 +34,10 @@ section {
     background-color: #ede1e1;
     /* White */
     color: #555555;
-    padding: 70px;
+    padding: 20px;
+}
+.bg-3 div {
+    border:solid;
 }
 
 .lucy-cover {
@@ -43,7 +46,10 @@ section {
     object-fit: cover;
 
 }
-
+.service-heading {
+    color: rgb(101, 49, 163);
+    padding: 20px;
+}
 option {
     display: block;
     white-space: nowrap;
@@ -98,7 +104,7 @@ div {
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 10px 10px;
-    background-color: black;
+    background-color: rgb(52, 44, 121);
 }
 
 .navbar>.container,
@@ -118,7 +124,7 @@ div {
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    background-color: black;
+    background-color: rgb(52, 44, 121);
     color: white;
 }
 
@@ -127,16 +133,19 @@ figure {
 }
 
 #connect {
-    padding: 0 240px 0 240px;
     align-items: center;
     display: block;
+    text-align: center;
 }
 
 form {
     display: block;
     padding: 20px 20px 20px 20px;
 }
-
+.form-button {
+    width: 240px;
+    display:inline-flex;
+}
 .text-center {
     text-align: center;
 }
@@ -152,64 +161,46 @@ td {
     object-fit: contain;
     width: 480px;
     height: 480px;
-    margin-top: 10px;
     align-content: center;
 }
-
-aside {
-    display: block;
-}
-
-.container {
-    width: 100%;
-    min-height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* Services cards*/
+.card {
+    display: inline-flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 20px;
     text-align: center;
-    border: solid;
-    margin: 10px;
-    background-size: contain;
-    background-position: center;
-}
-
-.cover-pic {
-    display: block;
-    width: 100%;
-    object-fit: contain;
-}
-
-.profile-pic {
-    width: 100;
-    border-radius: 50%;
-    margin-top: -70px;
-    object-fit: contain;
-
-}
-
-.profile-pic:hover {
-    box-shadow: 0 0 0 1px blue;
-}
-
-.follow-btn {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 280px;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
     display: inline-block;
-    text-decoration: none;
-    border: 2px solid #1900ff;
-    color: #312d2d;
-    padding: 6px 20px;
-    margin: 5px 0;
-}
-
-.view-btn {
-    display: inline-block;
-    text-decoration: underline;
-    background: #2806ed;
+    padding: 8px;
     color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
     width: 100%;
-    padding: 15px 0;
-    margin-top: 20px;
-}
-
-.view-btn:hover {
-    color: rgb(196, 208, 240);
-}
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+  .column-border {
+    border: solid;
+  }
