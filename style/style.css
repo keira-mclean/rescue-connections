@@ -104,7 +104,7 @@ div {
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 10px 10px;
-    background-color: rgb(52, 44, 121);
+    background-color: rgb(65, 75, 78);
 }
 
 .navbar>.container,
@@ -124,7 +124,7 @@ div {
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    background-color: rgb(52, 44, 121);
+    background-color: rgb(65, 75, 78);
     color: white;
 }
 
