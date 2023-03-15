@@ -19,7 +19,7 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: black;
+    background-color: #557d75;
     color: white;
     padding: 20px;
     text-align: center;
@@ -118,7 +118,7 @@ div {
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 10px 10px;
-    background-color:aliceblue;
+    background-color:rgb (218, 231, 231);
 }
 
 .navbar>.container,
@@ -138,8 +138,9 @@ div {
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    background-color: aliceblue;
-    color: white;
+    background-color: rgb (218, 231, 231);
+    color: black;
+    border-bottom: #557d75 solid;
 }
 
 figure {
