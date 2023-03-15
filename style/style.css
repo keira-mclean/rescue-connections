@@ -10,7 +10,17 @@ body {
     flex-direction: column;
 
 }
-
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+}
 section {
     display: block;
 }
@@ -22,7 +32,7 @@ section {
 }
 
 .bg-2 {
-    background-color: #777d89;
+    background-color: #aaadb4;
     /* Dark Blue */
     color: #ffffff;
     padding: 20px;
@@ -81,7 +91,7 @@ div {
     display: inline-block;
     text-align: right;
     text-decoration: none;
-    color: white;
+    color: #557d75;
     font-size: 12px;
     position: relative;
 }
@@ -104,7 +114,7 @@ div {
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 10px 10px;
-    background-color: rgb(65, 75, 78);
+    background-color: white;
 }
 
 .navbar>.container,
@@ -124,7 +134,7 @@ div {
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    background-color: rgb(65, 75, 78);
+    background-color: white;
     color: white;
 }
 
